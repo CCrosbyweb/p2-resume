@@ -1,0 +1,42 @@
+/* background */
+body {
+	background: #ebe1a8;
+}
+
+
+/* margins */
+h1, h2, h3, p {
+	margin-left: 10px;
+}
+/* Headding */
+header h1 {
+	font-size: 30px;
+	font-family: Kite One;
+}
+header h3 {
+	font-size: 40px
+}
+header {
+	border-bottom: solid;
+}
+/* navigation list */
+
+nav li {
+	float: left;
+	margin: 0px 2px;
+}
+nav a:link,
+nav a:visited{
+	padding: 0 20px;
+}
+nav a :hover,
+nav a :active {
+}
+
+li {
+	list-style: none;
+}
+/* font */
+h2 {
+	font-family: Kite One;
+}
