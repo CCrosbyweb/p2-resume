@@ -1,4 +1,4 @@
-/* background */
+
 body {
 	height: 100%;
 	background: url("../img/bg.jpg")  center center;
@@ -6,72 +6,109 @@ body {
 	
 	margin: 0;
 }
+
 .bgheader {
-	background: rgba(255, 255, 255, 0.60);
-	border-top: #93ed34 7px solid;
+	background: rgba(255, 255, 255, 0.41);
+	border-top: rgba(52, 201, 160, 0.68) 7px double;
 	box-shadow: 12px 3px 116px 6px #1c1c1c;
+	color: #7e7e7e;
 
 }
 
-.start h2 {
-	color: rgba(20, 10, 3, 0.57);
-	font-size: 100px;
+.start h1 {
+	color: rgba(52, 201, 160, 0.68);
+	font-size: 95px;
 	padding: 0 0;
-	margin-top: 10px;
-    margin-bottom: 20px;
+	margin: 21px 0px;
+ 
+    font-family: helvetica;
 
 }
 
 .bgarticle {
-	background: rgba(255, 255, 255, 0.94);
+	background: rgba(255, 255, 255, 0.87);
 	box-shadow: 12px 3px 116px 6px #1c1c1c;
 }
+section p {
 
+    margin-bottom: 50px;
 
-
-
-/* margins */
-h1, h2, h3, p {
-	margin-left: 10px;
-}
-/* Headding */
-header h1 {
-	font-size: 30px;
-	font-family: verdana ;
-	color: black;
-}
-header h3 {
-	font-size: 30px;
-	font-family: helvetica;
 }
 
-/* navigation list */
+.edu p {
+	margin-right: 50px;
+    margin-left: 30px;
+
+ 	
+ }
+
+ article ul {
+ 	padding: 0 30px;
+ }
+ article li {
+ 	margin-top: 20px;
+ 	font-family: helvetica ;
+ 	font-size: 16px;
+ 	list-style: none;
+ }
+ 
+
+
+.edu {
+	
+ 	border-bottom: rgba(52, 201, 160, 0.68) 4px double;
+ }
+
+
+header div h2 {
+	line-height: 35px;
+}
+
+
 
 nav li {
 	float: left;
 	margin: 0;
+	list-style: none;
 }
 
 nav a:link,
 nav a:visited{
 	padding: 20px 20px;
 }
-nav a :hover,
-nav a :active {
-
-	
+nav a:hover,
+nav a:active{
+	padding: 20px 20px;
 }
+
+
+
 
 li {
 	list-style: none;
 }
 /* font */
+h4 {
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: lighter;
+	
+	margin: 0px 0px
+}
 p {
-	letter-spacing: .5px;
+	margin-top: 10px;
 	line-height: 23px;
 	font-family: times ;
 	font-size: 16px;
+	font-family: georgia;
 }
 h2 {
-	font-family: helvetica;
+	font-family: "Montserrat";
+	font-style: bold;
+	font-size: 20px;
+	color: #7e7e7e;
+}
+h3 {
+	font-size: 17px;
+	font-family: "Montserrat";
 }
