@@ -1,19 +1,33 @@
 /* background */
 body {
 	height: 100%;
-	background: url("../img/Shadow.jpg") no-repeat center center;
+	background: url("../img/bg.jpg")  center center;
 	background-size: cover;
+	
 	margin: 0;
 }
 .bgheader {
-	background: rgba(255, 255, 255, 0.30);
+	background: rgba(255, 255, 255, 0.60);
+	border-top: #93ed34 7px solid;
+	box-shadow: 12px 3px 116px 6px #1c1c1c;
+
 }
-.bgedu {
-	background: rgba(255, 255, 255, 0.40);
+
+.start h2 {
+	color: rgba(20, 10, 3, 0.57);
+	font-size: 100px;
+	padding: 0 0;
+	margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.bgarticle {
+	background: rgba(255, 255, 255, 0.94);
+	box-shadow: 12px 3px 116px 6px #1c1c1c;
 }
 
 
-}
 
 
 /* margins */
@@ -23,31 +37,41 @@ h1, h2, h3, p {
 /* Headding */
 header h1 {
 	font-size: 30px;
-	font-family: Kite One;
-	color: #1A6BFF;
+	font-family: verdana ;
+	color: black;
 }
 header h3 {
-	font-size: 40px
+	font-size: 30px;
+	font-family: helvetica;
 }
 
 /* navigation list */
 
 nav li {
 	float: left;
-	margin: 0px 2px;
+	margin: 0;
 }
+
 nav a:link,
 nav a:visited{
-	padding: 0 20px;
+	padding: 20px 20px;
 }
 nav a :hover,
 nav a :active {
+
+	
 }
 
 li {
 	list-style: none;
 }
 /* font */
+p {
+	letter-spacing: .5px;
+	line-height: 23px;
+	font-family: times ;
+	font-size: 16px;
+}
 h2 {
-	font-family: Kite One;
+	font-family: helvetica;
 }
